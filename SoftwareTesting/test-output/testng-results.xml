@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-06T21:02:06 IST" name="Suite" finished-at="2023-10-06T21:02:06 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2023-10-06T21:02:06 IST" name="FunctionalTestSuite" finished-at="2023-10-06T21:02:06 IST" duration-ms="19">
+    <groups>
+    </groups>
+    <test started-at="2023-10-06T21:02:06 IST" name="Functional Tests" finished-at="2023-10-06T21:02:06 IST" duration-ms="19">
+      <class name="BatchTesting.PaymentTest">
+        <test-method signature="paymentindollar()[pri:0, instance:BatchTesting.PaymentTest@b2c9a9c]" started-at="2023-10-06T21:02:06 IST" name="paymentindollar" finished-at="2023-10-06T21:02:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentindollar -->
+        <test-method signature="paymentinrupees()[pri:0, instance:BatchTesting.PaymentTest@b2c9a9c]" started-at="2023-10-06T21:02:06 IST" name="paymentinrupees" finished-at="2023-10-06T21:02:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinrupees -->
+      </class> <!-- BatchTesting.PaymentTest -->
+      <class name="BatchTesting.PaymentReturns">
+        <test-method signature="paymentReturnBybank()[pri:0, instance:BatchTesting.PaymentReturns@4c178a76]" started-at="2023-10-06T21:02:06 IST" name="paymentReturnBybank" finished-at="2023-10-06T21:02:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentReturnBybank -->
+      </class> <!-- BatchTesting.PaymentReturns -->
+    </test> <!-- Functional Tests -->
+  </suite> <!-- FunctionalTestSuite -->
+  <suite started-at="2023-10-06T21:02:06 IST" name="SanityTestSuite" finished-at="2023-10-06T21:02:06 IST" duration-ms="89">
+    <groups>
+    </groups>
+    <test started-at="2023-10-06T21:02:06 IST" name="Sanity Tests" finished-at="2023-10-06T21:02:06 IST" duration-ms="89">
+      <class name="BatchTesting.LoginTest">
+        <test-method signature="loginByemail()[pri:0, instance:BatchTesting.LoginTest@c730b35]" started-at="2023-10-06T21:02:06 IST" name="loginByemail" finished-at="2023-10-06T21:02:06 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByemail -->
+        <test-method signature="loginByfacebook()[pri:0, instance:BatchTesting.LoginTest@c730b35]" started-at="2023-10-06T21:02:06 IST" name="loginByfacebook" finished-at="2023-10-06T21:02:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginByfacebook -->
+        <test-method signature="loginBytwitter()[pri:0, instance:BatchTesting.LoginTest@c730b35]" started-at="2023-10-06T21:02:06 IST" name="loginBytwitter" finished-at="2023-10-06T21:02:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBytwitter -->
+      </class> <!-- BatchTesting.LoginTest -->
+      <class name="BatchTesting.SignupTest">
+        <test-method signature="signupByemail()[pri:0, instance:BatchTesting.SignupTest@702657cc]" started-at="2023-10-06T21:02:06 IST" name="signupByemail" finished-at="2023-10-06T21:02:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupByemail -->
+        <test-method signature="signupByfacebook()[pri:0, instance:BatchTesting.SignupTest@702657cc]" started-at="2023-10-06T21:02:06 IST" name="signupByfacebook" finished-at="2023-10-06T21:02:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupByfacebook -->
+        <test-method signature="signupBytwitter()[pri:0, instance:BatchTesting.SignupTest@702657cc]" started-at="2023-10-06T21:02:06 IST" name="signupBytwitter" finished-at="2023-10-06T21:02:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupBytwitter -->
+      </class> <!-- BatchTesting.SignupTest -->
+    </test> <!-- Sanity Tests -->
+  </suite> <!-- SanityTestSuite -->
+</testng-results>
